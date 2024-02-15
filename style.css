@@ -12,7 +12,7 @@ div {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  border: 2px sol/id red;
+  /* border: 2px solid red; */
   margin-top: -100px;
 }
 button {
@@ -65,4 +65,10 @@ button::before {
 
 button:hover::before {
   transform: translate3d(100%, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  #joke {
+    font-size: 26px;
+  }
 }
